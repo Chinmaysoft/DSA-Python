@@ -8,16 +8,16 @@ class Circle:
     def setRadius(self,radius):
         self.radius=radius
 
-    def getRadius(self,radius):
+    def getRadius(self):
         return self.radius
 
     def getArea(self):
         self.area = (3.14*self.radius*self.radius)
-        print("Area of Circle is {}".format(self.area))
+        return "Area of Circle is {}".format(self.area)
 
     def getCircumference(self):
         self.circumference = (2*3.14*self.radius)
-        print("Circumference of circle is %s"%self.circumference)
+        return "Circumference of circle is %s"%self.circumference
 
 
 c1 = Circle()
