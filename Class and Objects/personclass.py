@@ -1,11 +1,11 @@
 class Person:
 
-    def __init__(self,name,age) -> None:
+    def __init__(self,name,age):
         self.name=name
         self.age=age
 
        
-    def show():
+    def show(self):
         print(f"Hi {self.name} and your age is {self.age}")
 
 
